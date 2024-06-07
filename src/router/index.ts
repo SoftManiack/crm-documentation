@@ -16,7 +16,7 @@ const router = createRouter({
   history: createMemoryHistory(),
   routes,
 })
-
+  
 router.beforeEach((to, from, next) => {
   // ...
   // explicitly return false to cancel the navigation

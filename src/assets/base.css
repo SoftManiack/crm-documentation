@@ -21,10 +21,22 @@ a {
   color: unset;
 }
 
+.hr{
+  border-color: var(--line);
+  color: var(--line);
+  background-color: var(--line);
+}
+
 @font-face {
   font-family: "Rubik";
   src: url("../assets/font/Rubik/static/Rubik-Regular.ttf");
 }
+
+@font-face {
+  font-family: "Rubik-Bold";
+  src: url("../assets/font/Rubik/static/Rubik-Bold.ttf");
+}
+
 
 #app{
     width: 100%;

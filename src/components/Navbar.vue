@@ -34,6 +34,7 @@
                 class="navbar__link"
             >
                 <RouterLink
+                    activeClass="navbar__link--active"
                     :to="item.path"
                 >
                     {{ item.name }}
@@ -45,9 +46,15 @@
 
 <style>
     .navbar{
-        
+        margin-top: 14px;
     }
     .navbar__link{
- 
+        text-decoration: none;
+    }
+    .navbar__link a {
+        color: #757575;
+    }
+    .navbar__link--active{
+       color: #3391FF !important;
     }
 </style>

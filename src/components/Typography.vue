@@ -47,4 +47,8 @@
         .tag_h4 { font-size: 18px; }
         .tag_h5 { font-size: 16px; }
     }
+
+    .bold{
+        font-family: "Rubik-Bold";
+    }
 </style>

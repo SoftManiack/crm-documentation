@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import { RouterView } from 'vue-router';
-  import Header from './components/Header.vue'
-  import Navbar from './components/Navbar.vue'
+  import Header from '@/components/Header.vue'
+  import Navbar from '@/components/Navbar.vue'
 
 </script>
 
@@ -17,7 +17,7 @@
 
 <style>
   .container{
-    max-width: 1400px;
+    max-width: 1500px;
     margin: 0 auto;
   } 
 
