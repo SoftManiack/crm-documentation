@@ -2,20 +2,21 @@
     import { defineProps } from 'vue'
 
     interface Props {
-        tagName: string,
+        path: string,
     }
     
     const props = defineProps<Props>();
 </script>
 
 <template>
-    <div class="sidebar">
-    
-    </div>
+    <img
+        class="img"
+        :src="props.path"
+    >
 </template>
 
 <style>
-    .sidebar{
+    .img{
         
     }
 </style>

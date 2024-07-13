@@ -3,7 +3,7 @@
         path: string,
         name: string
     }
-
+    
     const list: Link[] = [
         {
             path: '/',

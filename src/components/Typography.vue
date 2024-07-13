@@ -5,13 +5,18 @@
         tagName?: 'p' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5',
         bold?: boolean,
         size?: 'xs' |  's' | 'm' | 'l' | 'xl'
+        color?: '#213547'
     }
 
      const props = defineProps<Props>();
 </script>
     
 <template>
-    <component :is="props.tagName" :class="[ 'typography', size ? `${size}` : '', bold ? 'bold' : '', `tag_${tagName}`]">
+    <component 
+        :is="props.tagName" 
+        :class="[ 'typography', size ? `${size}` : '', bold ? 'bold' : '', `tag_${tagName}`]"
+        :style="{ color: color }"
+    >
         <slot></slot>
     </component>
 </template>

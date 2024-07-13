@@ -12,7 +12,7 @@ body {
   height: 100vh;
 }
 
-ul, ol {
+ul {
   list-style: none;
 }
 
@@ -48,4 +48,12 @@ a {
 
 .page{
     padding-left: 2rem;
+}
+
+.list-ol{
+
+}
+
+.list-ol .list-li{
+  
 }

@@ -17,14 +17,35 @@
 
 <style>
   .container{
-    max-width: 1500px;
     margin: 0 auto;
   } 
 
-  @media screen and (max-width: 1207px){
-    .container {
-        max-width: 760px;
+  /* Устройства Medium (планшеты, 768 пикселей и выше) */
+  @media (min-width: 768px) { 
+    .container{
+      max-width: 768px;
     }
+  } 
+
+  /* Устройства Large (настольные компьютеры, 992 пикселей и выше) */
+  @media (min-width: 992px) { 
+     .container{
+      max-width: 992px;
+    }
+  }
+
+  /* Устройства X-Large (большие настольные компьютеры, 1200 пикселей и выше) */
+  @media (min-width: 1200px) {
+    .container{
+      max-width: 1200px;
+    }
+  }
+
+  /* Устройства XX-Large (большие настольные компьютеры, 1400 пикселей и выше) */
+  @media (min-width: 1400px) { 
+       .container{
+         max-width: 1500px;
+      }
   }
 
   main{
