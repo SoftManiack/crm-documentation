@@ -13,7 +13,7 @@
             path: '/uprav',
             name: 'Управление'
         },
-        {
+        {   
             path: '/master',
             name: 'Мастера'
         },
@@ -47,6 +47,7 @@
 <style>
     .navbar{
         margin-top: 14px;
+        min-width: 180px;
     }
     .navbar__link{
         text-decoration: none;

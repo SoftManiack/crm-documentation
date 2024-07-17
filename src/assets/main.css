@@ -3,10 +3,11 @@
 :root{
     --main-background: #FFFFFF;
     --link-text: #3391FF;
+    --link-text-active: #3f8ee9;
+    --navbar-text: #757575;
     --line: #C6C6C6;
     --title-text: #000000;
     --paragraph-text: #515151;
-    --navbar-text: #757575;
 }
 
 .ml-1{ margin-left: 10px; }

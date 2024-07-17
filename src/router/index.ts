@@ -22,6 +22,7 @@ router.beforeEach((to, from, next) => {
   // explicitly return false to cancel the navigation
 
   console.log(to)
+  
   console.log(from)
   
   next()

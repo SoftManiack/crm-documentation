@@ -7,6 +7,10 @@
   font-weight: 400;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--main-background);
   height: 100vh;
@@ -25,6 +29,7 @@ a {
   border-color: var(--line);
   color: var(--line);
   background-color: var(--line);
+  height: 1px !important;
 }
 
 @font-face {
@@ -46,14 +51,24 @@ a {
     height: 100%;
 }
 
-.page{
-    padding-left: 2rem;
-}
-
 .list-ol{
-
+  list-style: inside decimal;
 }
 
 .list-ol .list-li{
   
+}
+
+.page-container{
+  display: flex;
+  padding-left: 2rem;
+  max-width: 1000px;
+}
+
+.page-container  .page-container__content{
+
+}
+
+.page-container  .page-container__sidebar{
+
 }

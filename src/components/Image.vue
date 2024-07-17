@@ -2,7 +2,7 @@
     import { defineProps } from 'vue'
 
     interface Props {
-        path: string,
+        path?: string,
     }
     
     const props = defineProps<Props>();
@@ -17,6 +17,8 @@
 
 <style>
     .img{
-        
+        border: 1px solid #adadad;
+        max-width: 900px;
+        width: 100%;
     }
 </style>
